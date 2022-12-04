@@ -1,0 +1,92 @@
+.cont{
+    background-image: url("../images/contact_g.jpg");
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100vh;
+
+    
+}
+.a{
+    max-width: 315px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 60px;
+    color: #fff;
+}
+* {
+    box-sizing: border-box!important;
+    font-family: 'Work Sans', sans-serif;
+}
+.b{
+    
+    margin-right: -15px;
+    margin-left: -15px;
+    color:white;
+    
+    font-size: 14px;
+    width: 50vw;
+    font-family: Poppins,sans-serif;
+    line-height: 1.80857;
+    font-weight: 400;
+    text-align: center;
+    height:70vh;
+    padding: 50px 10px;
+    border: solid 2px white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left:25% ;
+}
+.IN{
+    background-color: rgb(61, 194, 116);
+    border-radius: 100px;
+    width: 15vw;
+    height: 7vh;
+    border-style: none;
+    color: aliceblue;
+    margin: auto;
+    font-size: 20px;
+    
+}
+
+.IN:hover {
+    background-color: #fff;
+    color: #4842A2;
+    transition: 1s;
+
+} 
+.in input{
+    border: none;
+    margin-bottom: 23px;
+    background-color: transparent;
+    color:white;
+    width:40vw;
+    padding: 20px 0 0 25px;
+    font-size: 20px;
+    
+}
+.in{
+    border: solid white 1px;
+   
+}
+.mass{
+    height: 100px;
+}
+.A{
+background-color: aliceblue;
+height: 2px;
+width: 300px;
+}
+.q{
+   border-color:rgba(255, 255, 255, 0); 
+}
+/* @media screen and (max-width:700px) {
+input {
+    width:150px;
+}
+    
+} */
