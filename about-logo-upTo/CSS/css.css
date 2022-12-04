@@ -1,0 +1,108 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+body{
+    height: 2000px;
+}
+.opinion{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+
+}
+.opinion .opin{
+    height: 300px;
+    width: 24%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(242, 241, 240);
+    
+}
+.opin p{
+    width: 90%;
+    margin: auto;
+    
+    
+}
+.opin img{
+    border-radius: 50%;margin-top: 20px;
+}
+.arrow{
+    height: 36px;
+    background-color: rgb(20, 206, 185);
+    width: 40px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none; 
+
+}
+.arrow i{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+
+}
+.logo{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    
+}
+.logo img{
+    width: 150px;
+    margin: auto;
+    
+}
+@media only screen and (max-width:915px){
+    .opinion {
+        display: flex;
+        flex-direction: column;
+        height: 1080px;
+        align-items: center;
+    }
+    .opinion .opin{
+        width: 90%;
+        margin: 10px;
+    }
+    .opin p{
+    margin-bottom: 9px;
+    }
+    .logo{
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 150px;
+        width: 55%;
+
+    }
+    .logo img{
+        width:35%;
+        height: 190px;
+        
+        
+    }
+
+
+}
+@media only screen and (max-width:615px){
+    .logo{
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 150px;
+        width: 55%;
+
+    }
+    .logo img{
+        width:55%;
+        height: 50px;
+        
+        
+    }
+}
