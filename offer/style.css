@@ -1,0 +1,162 @@
+@media screen and (max-width:480px)
+{
+
+.sec_4
+{
+    display: block;
+    flex-direction: column;
+    overflow:auto;
+}
+.sec_4 .image
+{
+    margin-bottom: 100px;
+    margin-top: 18px;
+}
+
+.sec_4 .computer
+{
+    margin-top: 100px;
+}
+
+.sec_4 .image img
+{
+    width:325px;
+    margin-left:-50px;
+}
+.sec_4 .computer
+{
+    margin-left: 50px;
+}
+.sec_4 .computer p
+{
+font-size: 22px;
+}
+.sec_4 .computer h2
+{
+    font-size: 45px;
+}
+.sec_4 .computer button
+{
+    padding: 12px 40px;
+    font-size:15px;
+    font-weight: bold;
+}
+}
+
+
+
+@media screen and (min-width:481px) and (max-width:768px)
+{
+.sec_4
+{
+    justify-content: center;
+    overflow:auto;
+}
+.sec_4 .computer
+{
+    margin-left: 150px;
+}
+.sec_4 .image
+{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.sec_4 .image img
+{
+    width:325px;
+}
+.sec_4 .computer h2
+{
+    font-size:35px;
+}
+.sec_4 .computer p
+{
+    font-size:20px;
+}
+
+.sec_4 .computer button
+{
+    font-size:13px;
+    padding: 10px 25px;
+    margin-bottom: 50px;
+
+}
+}
+
+
+@media screen and (min-width:769px) and (max-width:1024px)
+{
+    .sec_4 .computer
+    {
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .sec_4 .computer h2
+    {
+        font-size: 40px;
+    }
+    .sec_4 .computer p
+    {
+        font-size: 25px;
+    }
+    .sec_4 .computer button
+    {
+        padding: 8px 23px;
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+    .sec_4 .image
+    {
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+    }
+    .sec_4 .image img
+    {
+        width: 370px;
+    }
+
+
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sec_4
+{
+    color:white;
+    background-color:rgb(72,66,162);
+    display:flex;
+    justify-content: space-around;
+}
+.computer p{
+    margin-bottom:30px;
+    font-size: 30px;
+}
+.computer h2{
+    margin-bottom:40px;
+    font-size: 65px;
+}
+.computer button
+{
+  padding:12px 55px;
+  background-color: rgb(68, 192, 192);
+  border:solid rgb(68, 192, 192) 1px;
+  color:white;
+  font-size: 20px;
+  border-radius:10px;
+  font-weight: bold;
+}
+.computer,.image
+{
+    margin: 60px ;
+}
+.image img{
+    width:500px;
+}
